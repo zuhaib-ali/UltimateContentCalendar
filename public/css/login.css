@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url('../login_images/joint-project-management-meeting-in-a-conference-r.jpg');
+   /* position: absolute; */
+   height: 100vh;
+   background-position: center center;
+   background-size: cover;
+   width: 100%; 
+    /* z-index: -1; */
+}
+
+.navbar-brand img{
+    width: 30px;
+    height: 50px;
+
+}
+.formy form{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 30%;
+    /* height: 20vh; */
+    margin: auto;
+    border-radius: 13px;
+    background: rgba(255,255,255,0.60);
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+    
+}
+.formy form input{
+    border-radius: 4px;
+    outline: none;
+    width: 70%;
+    border: white 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.fp-login {
+    /* border: 1px solid black;  */
+    width: 70%;
+}
+.forgetPass{
+text-decoration: none !important;
+color: black;
+font-weight: 600;
+height: 10px;
+}
+.forgetPass:hover{
+    color: black;
+}
+.fp-login button{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    width: 25%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fp-login button:hover{
+    background-color: #216097;
+}
+.containerr{
+    /* height: 20vh;  */
+    /* border: 1px solid black; */
+    width: 100%;
+    position: absolute;
+    top: 35%;
+}
+
+  
+  @media screen and (max-width: 1024px) {
+
+    .formy form{
+        width: 50%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    
+    .formy form{
+        width: 60%;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    
+    .formy form{
+        width: 90%;
+    }
+  }
